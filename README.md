@@ -14,8 +14,11 @@ Improvement Ideas:
 - Fully utilize written entities
 - Use defined tapir endpoint for http request
 - Clean up build.sbt and versioning in project/Dependencies.scala
+- Use Circe encoders and decoders instead of the lazy stupid way I did it
 - Do better
 
 After starting the server, type this in your browser: http://127.0.0.1:9000/api/v0.1.0/weather-api/latitude/36.0/longitude/139.0
 
 I tried to use only libraries I was unfamiliar with. I cheated by using Circe, but whatever.
+
+### FYI: This requires a jre capable of running class files version 55.0 or higher
